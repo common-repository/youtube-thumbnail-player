@@ -1,0 +1,219 @@
+
+#h2_titulo{
+	text-shadow: 2px 2px 7px #BFBFBF;
+	padding-left:24px;
+	background: url('../images/titulo.png') no-repeat;
+	height:22px;
+}
+#logo_jodacame{
+	text-align:right;
+	border:0px solid;
+	width:640px;
+	background-image: url('../images/logo.png');
+	height:70px;
+	padding-top:30px;
+}
+
+#logo_jodacame .titulo_plugin{
+	font-size:40px;
+	display:block;
+	text-shadow: 2px 2px 7px #111;
+}
+#logo_jodacame .creditos{
+	font-size:14px;
+	text-shadow: 2px 2px 7px #111;
+	display:block;
+	padding-top:20px;
+}
+#logo_jodacame a:link{
+	text-decoration:none;
+}
+
+/* YOUTUBE */
+@import url(http://fonts.googleapis.com/css?family=Ruda);
+
+
+#contenidoVideo{
+	background-color:#FFFFFF;
+
+	border:0px #BFBFBF dashed;
+	width:500px;
+	min-height:150px;
+	margin:10px;
+	margin-top:20px;
+	margin-bottom:30px;
+	font-family: 'Ruda', sans-serif !important; 
+	padding: 1px;
+	z-index:49;
+}
+#contenidoVideo:hover{
+	background-color:#FFFFFF;
+	}
+#contenidoVideo .thumbnail img{
+
+	width:180px;
+	height:130px;
+	min-width:180px;
+	min-height:130px;
+	float:left;
+	padding:10px;
+	border:5px #FFFFFF;
+	background-color:#FFFFFF;
+	-moz-box-shadow: 0px 0px 5px #616161;
+-webkit-box-shadow: 0px 0px 5px #616161;
+box-shadow: 0px 0px 5px #616161;
+-moz-transform:rotate(-10deg); 
+-webkit-transform:rotate(-10deg);
+-o-transform:rotate(-10deg);
+}
+
+
+
+#contenidoVideo .thumbnail .youtubeLogo{
+	display:block;
+	width:40px;
+	height:17px;
+	background: url('../images/youtube-logo.png');
+	position:absolute;
+	margin-left:135px;
+	margin-top:0px;
+	z-index:50;
+-moz-transform:rotate(-10deg); 
+-webkit-transform:rotate(-10deg);
+-o-transform:rotate(-10deg);
+	
+	
+}
+#contenidoVideo .thumbnail .botonPlay{
+	display:block;
+	width:24px;
+	height:24px;
+	background: url('../images/btn.png');
+	position:absolute;
+	margin-left:170px;
+	margin-top:100px;
+	z-index:50;
+	cursor:pointer;
+	-moz-transform:rotate(-10deg); 
+-webkit-transform:rotate(-10deg);
+-o-transform:rotate(-10deg);
+	
+}
+#contenidoVideo .thumbnail .botonPlay:hover{
+
+	background: url('../images/btnh.png');
+
+	
+}
+#contenidoVideo  .titulo{
+	display:block;
+	margin-left:210px;
+	font-weight:bold;
+	font-family: 'Ruda', sans-serif !important; 
+}
+#contenidoVideo  .desc{
+	display:block;
+	margin-left:210px;
+	font-size:.8em;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family: 'Ruda', sans-serif !important; 
+	
+}
+#contenidoVideo  .tags{
+	display:block;
+	margin-left:210px;
+	font-size:.8em;
+	margin-top:5px;
+	color: #BFBFBF;
+	margin-bottom:5px;
+	
+}
+#contenidoVideo  .autor a,#contenidoVideo  .autor a:link,#contenidoVideo  .autor a:visited{
+	display:block;
+	position:absolute;
+	margin-left:200px;
+	font-size:.8em;
+	margin-top:130px;
+	color: #BFBFBF;
+	width:295px;
+	
+font-family: 'Ruda', sans-serif;
+	text-decoration:none;
+	text-align:right;
+	
+	
+}
+#contenidoVideo  .autor a:hover{
+	color: #4D4D4D;
+		font-family: 'Ruda', sans-serif !important; 
+}
+#contenidoVideo  .average{
+	display:block;
+	margin-left:210px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:.7em;
+	color: #4D4D4D;
+}
+#contenidoVideo  .duracion{
+	display:block;
+	padding:3px;
+	padding-bottom:5px;
+	height:12px;
+		font-family: 'Ruda', sans-serif !important; 
+	position:absolute;
+	margin-left:22px;
+	margin-top:125px;
+	z-index:50;
+	text-shadow:0px 0px 5px #000000;
+	font-weight:bold;
+	font-size:12px;
+	color: #FFFFFF;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright:3px;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	-moz-transform:rotate(-10deg); 
+-webkit-transform:rotate(-10deg);
+-o-transform:rotate(-10deg);
+}
+.reproductor{
+	
+	width: 960px;
+	padding:10px;
+	border:5px #FFFFFF;
+	background-color: #FFFFFF;
+-moz-box-shadow: 0px 0px 31px #000000;
+-webkit-box-shadow: 0px 0px 31px #000000;
+box-shadow: 0px 0px 31px #000000;
+	position:fixed;
+	top:50%;
+		left:50%;
+		font-family: 'Ruda', sans-serif !important; 
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-480px;
+		/*determinamos una altura*/
+	
+		/*indicamos que el margen superior, es la mitad de la altura*/
+		margin-top:-360px;
+		 z-index: 3002;
+}
+
+#overlayYTB{
+	   background:transparent url(../images/duracion.png) repeat top left;
+			position:fixed;			
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:3001;
+}
